@@ -154,6 +154,7 @@ const Canvas = () => {
     //audio
     React.useEffect(()=>{
         audioPlayer.current.volume = .4;
+        audioPlayer.current.loop = true;
         if(mute){
             audioPlayer.current.play();
         }else{
