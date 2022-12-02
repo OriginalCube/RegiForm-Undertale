@@ -94,13 +94,13 @@ input:invalid[focused="true"] ~ .errorMessage{
 
 .details{
   position: relative;
-  width: 80%;
-  margin: auto;
+  width: 60%;
+  left: 8%; 
   font-size: 1.5rem;
 }
 
 .details p{
-  margin-top: 2.5%;
+  margin-top: 3.5%;
 }
 
 /* width */

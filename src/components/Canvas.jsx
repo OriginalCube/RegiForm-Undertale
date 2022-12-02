@@ -8,7 +8,7 @@ const Canvas = () => {
     const [enemyHealth, setEnemyHealth] = React.useState(100);
     const [mute, setMute] = React.useState(true);
     const canvasRef = React.useRef(null);
-    const gameLimit = 10;
+    const gameLimit = 20;
     let tempCircle = [];
 
     const playerHit = () =>{
